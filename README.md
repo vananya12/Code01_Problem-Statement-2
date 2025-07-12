@@ -2,8 +2,8 @@
 # https://www.odoo.com/event/odoo-hackathon-2025-7644/register
 # Team name - Code 01
 
-StackIt – A Minimal Q&A Forum Platform
-Overview
+## StackIt – A Minimal Q&A Forum Platform
+### Overview
 StackIt is a m inim al question-and-answer platform that supports collaborative
 learning and structured knowledge sharing. It’s designed to be sim ple, user- friendly,
 and focused on the core experience of asking and answering questions within a
@@ -21,8 +21,7 @@ Admin Role
 ● Monitor pending, accepted, or cancelled swaps.
 ● Send platform-wide messages (e.g., feature updates, downtime alerts).
 ● Download reports of user activity, feedback logs, and swap stats.
-Mockup -https://link.excalidraw.com/l/65VNwvy7c4X/8bM86GXnnUN
-Problem Statement 2:-
+
 Tags – Multi-select input (e.g., React , JWT)
 2. Rich Text Editor Features
 The description editor should support:
