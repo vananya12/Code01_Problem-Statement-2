@@ -34,34 +34,53 @@ Admin Role
 
 Tags – Multi-select input (e.g., React , JWT)
 
-3. Rich Text Editor Features
+2. Rich Text Editor Features
+   
 The description editor should support:
+
 Bold, Italic, Strikethrough
+
 Num bered lists, Bullet points
+
 Em oji insertion
+
 Hyperlink insertion (URL)
+
 Im age upload
+
 Text alignm ent – Left, Center, Right
 
-4. Answering Questions
+3. Answering Questions
+   
 Users can post answers to any question
+
 Answers can be form atted using the sam e rich text editor
+
 Only logged- in users can post answers
 
-5. Voting & Accepting Answers
+4. Voting & Accepting Answers
+
 Users can upvote or downvote answers
+
 Question owners can m ark one answer as accepted
 
-6. Tagging
+5. Tagging
+
 Questions m ust include relevant tags
 
-7. Notification System
+6. Notification System
+
 A notification icon (bell) appears in the top navigation bar
+
 Users are notified when:
+
 ○ Som eone answers their question
+
 ○ Som eone com m ents on their answer
 ○ Som eone m entions them using @user name
+
 The icon shows the num ber of unread notifications
+
 Clicking the icon opens a dropdown with recent notifications
 
 
