@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Question Details</title>
+  <link rel="stylesheet" href="style3.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container">
+      <h1>StackIt</h1>
+      <nav>
+        <a href="index.html">Home</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="container" id="question-detail">
+    <!-- JS will inject question and answers here -->
+  </main>
+
+  <!-- Add Answer Form -->
+  <section class="container">
+    <h3>Submit Your Answer</h3>
+    <textarea id="answer-input" placeholder="Write your answer here..."></textarea>
+    <button onclick="submitAnswer()">Submit Answer</button>
+  </section>
+
+  <script src="script.js"></script>
+  <script src="question-detail.js"></script> <!-- We'll create this next -->
+</body>
+</html>
