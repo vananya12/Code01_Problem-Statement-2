@@ -76,8 +76,9 @@ Users are notified when:
 
 ○ Som eone answers their question
 
-○ Som eone com m ents on their answer
-○ Som eone m entions them using @user name
+○ Someone comments on their answer
+
+○ Someone mentions them using @user name
 
 The icon shows the num ber of unread notifications
 
@@ -85,3 +86,4 @@ Clicking the icon opens a dropdown with recent notifications
 
 
 Mock-up:- https://link.excalidraw.com/l/65VNwvy7c4X/9mhEahV0MQg
+#### Colaborator - "sod-odoo"- https://github.com/sod-odoo
