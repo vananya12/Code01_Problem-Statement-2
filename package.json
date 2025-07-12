@@ -1,27 +1,64 @@
 {
-  "name": "stackit",
+  "name": "stackit-client",
   "version": "1.0.0",
-  "description": "A minimal Q&A platform built with React, Node.js, and MongoDB",
-  "main": "index.js",
-  "scripts": {
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "server": "cd server && npm run dev",
-    "client": "cd client && npm start",
-    "install-all": "npm install && cd server && npm install && cd ../client && npm install",
-    "build": "cd client && npm run build",
-    "start": "cd server && npm start",
-    "docker:build": "docker-compose build",
-    "docker:up": "docker-compose up -d",
-    "docker:down": "docker-compose down",
-    "docker:logs": "docker-compose logs -f",
-    "docker:restart": "docker-compose restart",
-    "deploy": "./deploy.sh",
-    "seed": "cd server && npm run seed"
+  "description": "Frontend for StackIt Q&A platform",
+  "private": true,
+  "dependencies": {
+    "@tailwindcss/forms": "^0.5.10",
+    "@tailwindcss/typography": "^0.5.16",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^14.5.2",
+    "axios": "^1.6.2",
+    "date-fns": "^2.30.0",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^4.12.0",
+    "react-markdown": "^9.0.1",
+    "react-quill": "^2.0.0",
+    "react-router-dom": "^6.20.1",
+    "react-scripts": "5.0.1",
+    "rehype-highlight": "^7.0.0",
+    "rehype-raw": "^7.0.0",
+    "remark-gfm": "^4.0.0",
+    "socket.io-client": "^4.7.4",
+    "web-vitals": "^2.1.4"
   },
-  "keywords": ["qa", "stackoverflow", "react", "nodejs", "mongodb"],
-  "author": "StackIt Team",
-  "license": "MIT",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
   "devDependencies": {
-    "concurrently": "^8.2.2"
-  }
-} 
+    "@babel/eslint-parser": "^7.28.0",
+    "@babel/preset-react": "^7.27.1",
+    "@eslint/js": "^9.31.0",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.57.1",
+    "eslint-plugin-react": "^7.37.5",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.3.6"
+  },
+  "proxy": "http://localhost:5000"
+}
